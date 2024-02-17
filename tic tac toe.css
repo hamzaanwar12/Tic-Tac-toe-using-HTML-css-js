@@ -1,0 +1,86 @@
+html {
+
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    
+}
+/* :root{
+    background: url("images/tic\ tac\ toe.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat:no-repeat;
+    opacity: 0.5;
+
+} */
+
+
+#winner{
+ font-size: 1.5rem;
+ width: 70%;
+ margin: auto;
+ margin-bottom: 1rem;  
+ text-align: center; 
+}
+
+#winner h1{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title h1 {
+    margin-bottom: 0.7rem;
+    
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+    margin-top: 1.7rem;
+}
+
+td {
+    border: 2px solid black;
+    width: 3.5rem;
+    height: 2rem;
+    text-align: center;
+    visibility: hidden;
+    visibility: visible;
+}
+
+.upperClass {
+    border-top: none;
+}
+
+.lowerClass {
+    border-bottom: none;
+}
+
+.left {
+    border-left: none;
+}
+
+.right {
+    border-right: none;
+}
+
+tbody {
+    border-collapse: collapse;
+}
+
+#playersInfo{
+    display: none;
+}
+
+.name {
+    display: block;
+    margin-bottom: 9px;
+}
